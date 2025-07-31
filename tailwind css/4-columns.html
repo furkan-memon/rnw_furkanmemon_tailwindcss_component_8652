@@ -1,80 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>footer</title>
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
-     <div class="@container">
-        <div class=" flex justify-between">
-        <div>
-            <ul class="grid gap-[10px]">
-                   <li class="text-[20px]  font-semibold">
-                         Company
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                       Brand
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                     Contact Us
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                     Blog
-                   </li>
-               </ul>
-        </div>
-        <div>
-            <ul class="grid gap-[10px]"> 
-                   <li class="text-[20px] font-semibold">
-                     Legal
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                    Privacy
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                    Terms
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                  Support
-                   </li>
-               </ul>
-        </div>
-        <div>
-            <ul class=" grid gap-[10px]">
-                   <li class="text-[20px]  font-semibold">
-                      Products
-                   </li >
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                  Latest  features
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-                  Products roadmap
-                   </li>
-                   <li class="text-neutral-600 text-[13px] font-[500]">
-              Knowledge base
-                   </li>
-               </ul>
-        </div>
-        <div>
-            <ul class="text-center  items-center   grid gap-[5px]">
-                   <li class="text-[20px] font-semibold">
-                       Account
-                   </li>
-                   <li>
-                  <button class=" border-2 px-[15px] py-[5px] rounded-sm border-[#4A9782] mt-[5px]">
-                     Sign in
-                  </button>
-                   </li>
-                   <li>
-                  <button class="  px-[15px] rounded-sm bg-[#4A9782]  py-[5px] mt-[5px] text-[#ffffff]">
-                    Sign Up
-                  </button>
-                   </li>
-                   </ul>
-                   </div>
- </div>
+<body class=" h-screen dark:bg-[#4e4f53] flex justify-center items-center">
+  <div style="background-image: url(./ASSET/image/footer.PNG);"
+    class="absolute inset-0  bg-center  filter blur-md brightness-75 -z-10"></div>
+     <div class="md:container mx-auto  ">
+      
+ <div class="p-20">
+   <div class=" grid md:grid-cols-3 lg:grid-cols-4 !pb-[50px] bg-[#25262b]  p-10 rounded-3xl">
+   <div class="mt-5 md:mt-0">
+       <ul class="grid gap-[10px]">
+              <li class="text-[20px] text-white font-semibold">
+                    Company
+                 <hr class="!w-[60px] !p-[1px] rounded-full border-0  dark:bg-[#ff1493] ">
+
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+                  Brand
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+                Contact Us
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+                Blog
+              </li>
+          </ul>
+   </div>
+   <div class="mt-5  md:mt-0">
+       <ul class="grid gap-[10px]"> 
+              <li class="text-[20px] font-semibold text-white">
+                Legal
+                 <hr class="!w-[30px] !p-[1px] rounded-full border-0 !bg-[#ff1493]">
+
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+               Privacy
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+               Terms
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+             Support
+              </li>
+          </ul>
+   </div>
+   <div class="mt-5  md:mt-0">
+       <ul class=" grid gap-[10px]">
+              <li class="text-[20px]  font-semibold text-white">
+                 Products
+                 <hr class="!w-[60px] !p-[1px] rounded-full border-0 !bg-[#ff1493]">
+              </li >
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+             Latest  features
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+             Products roadmap
+              </li>
+              <li class="dark:text-gray-300 text-[13px] font-[700]">
+         Knowledge base
+              </li>
+          </ul>
+   </div>
+   <div  class="mt-5  lg:mt-0">
+          <h3 class="text-[20px] text-white font-semibold">
+Follow us
+                 <hr class="!w-[60px] !p-[1px] rounded-full border-0 !bg-[#ff1493]">
+
+          </h3>   
+              
+       <ul class="text-center  items-center mt-[8px] flex ">
+              
+              <li>
+                <button class="  px-[15px] !rounded-[100%] size-12 me-[5px] text-center text-white items-center bg-[#4e4f53]  py-[5px] mt-[5px] text-[#ffffff]">
+
+               <i class="fa-brands fa-facebook-f"></i>
+             </button>
+              </li>
+              <li>
+             <button class="  px-[15px] !rounded-[100%] size-12 me-[5px] text-center text-white items-center bg-[#4e4f53]  py-[5px] mt-[5px] text-[#ffffff]">
+               <i class="fa-brands fa-twitter"></i>
+             </button>
+              </li>
+              <li>
+                               <button class="  px-[15px] !rounded-[100%] size-12 me-[5px] text-center text-white items-center bg-[#4e4f53]  py-[5px] mt-[5px] text-[#ffffff]">
+
+               <i class="fa-brands fa-instagram"></i>
+             </button>
+              </li>
+              <li>
+                                 <button class="  px-[15px] !rounded-[100%] size-12 me-[5px] text-center text-white items-center bg-[#4e4f53]  py-[5px] mt-[5px] text-[#ffffff]">
+
+               <i class="fa-brands fa-linkedin-in"></i>
+             </button>
+              </li>
+              </ul>
+              </div>
+             
+
+      </div> 
+ 
+     
+
      </div>
 </body>
 </html>
